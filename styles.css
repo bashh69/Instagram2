@@ -1,0 +1,78 @@
+body{
+    background: black;
+    margin: 25%;
+}
+div.post{
+    width: 50%;
+    height: auto;
+    background: white;
+    margin-top: 5px;
+}
+div.info{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 5px;
+}
+div.username{
+    width: auto;
+    font-size: 13px;
+    background: white;
+    margin-left: 10px;
+}
+div.options{
+    height: 2px;
+    font-size: 30px;
+    padding: 30px;
+    padding-bottom: 62px;
+}
+div.user{
+    display: flex;
+    align-items: center;
+}
+div.profile-pic{
+    height: 35px;
+    width: 100%;
+    padding: 5;
+    padding-bottom: 5%;
+    font-size: 40px;
+}
+div.post img{
+    width: 190%;
+    height: 300px;
+    object-fit: cover;
+    padding-right: 50px;
+   margin-left: -60px; 
+   
+}
+div.body{
+    margin: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 5px;
+}
+div.reactions{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    margin-top: -20px;
+    align-items: center;
+}
+div.reactions .icon{
+    height: 20px;
+    margin: 0;
+    margin-right: 20px;
+    font-size: 25px;
+    padding: 10px;
+}
+div.reactions .save{
+    margin-left: auto;
+    height: 20px;
+    padding: 10px;
+    font-size: 25px;
+}
+.img{
+    margin-left: 15%;}
