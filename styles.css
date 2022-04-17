@@ -8,8 +8,8 @@ div.post {
     height: auto;
     background: white;
     margin-top: 5px;
-    align-items: center;
-    justify-content: center;
+    position: relative;
+    margin: auto;
 }
 
 div.info {
@@ -20,6 +20,7 @@ div.info {
     justify-content: space-between;
     align-items: center;
     line-height: 5px;
+    
 }
 
 div.username {
@@ -49,13 +50,10 @@ div.profile-pic {
     font-size: 40px;
 }
 
-div.post img {
+ div.post img { 
     width: 200%;
-    height: 300px;
-    object-fit: cover;
+    margin-left: -119px;
     padding-right: 50px;
-    margin-left: -57.5px;
-
 }
 
 div.body {
